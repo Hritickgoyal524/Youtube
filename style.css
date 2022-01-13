@@ -269,7 +269,7 @@ body{
     .video-container{
         width: calc(100% - 180px);
         margin-left: 180px;
-        grid-template-columns: repeat(3, 33%);
+        grid-template-columns: repeat(2, 48%);
     grid-gap: 20px 18px;
     }
 
@@ -411,13 +411,20 @@ body{
      display: none;
     }
     .filters{
-        display: none;
+        left: 0px;
+        width: calc(100% - 0px);
+    }
+
+
+
+    .filter-options{
+        font-size: 13px;
     }
     .video-container{
         width: calc(100% - 0px);
         margin-left: 0px;
-        margin-top: 70px;
-        grid-template-columns: repeat(2, 49%);
+        margin-top: 100px;
+        grid-template-columns: repeat(1,100%);
     grid-gap: 20px 18px;
     }
 
